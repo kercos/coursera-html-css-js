@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
   h1 {
+    font-size: 175%;
     text-align: center;
-    margin-bottom: 15px;
+    margin: 30px;
   }
 
   /* Simple Responsive Framework. */
@@ -17,26 +19,26 @@
   }
   
   .box {
-    background-color: #7a7a7a;
+    border: 1px solid black;
+    background-color: #7d83da;
     margin: 20px;
   }
   
+  .title {
+    border: 1px solid black;
+    padding: 4px;
+    background-color: #eee16b;
+    font-size: 125%;
+    float: right;    
+    }
+
   .text {        
     /* border: 2px solid rgb(141, 4, 4); */
     padding: 20px;
     font-family: Helvetica;
     color: white;
     clear: right;
-  }
-
-  .title {
-      border: 2px solid black;
-      padding: 4px;
-      background-color: #3584eb;
-      font-size: 1.5em;
-      float: right;    
-  }
-  
+  }  
   
   /********** Large devices only **********/
   @media (min-width: 992px) {
